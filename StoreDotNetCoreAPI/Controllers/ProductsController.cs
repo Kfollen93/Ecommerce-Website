@@ -15,7 +15,7 @@ namespace StoreDotNetCoreAPI.Controllers
         public ProductsController(StoreContext dbContext) => _db = dbContext;
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts() => await _db.Products.ToListAsync();
+        public async Task<ActionResult<List<Product>>> GetAllProducts() => await _db.Products.ToListAsync();
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
