@@ -15,10 +15,10 @@ namespace StoreDotNetCoreAPI.Controllers
         public ProductsController(StoreContext dbContext) => _db = dbContext;
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetAllProducts() => await _db.Products.ToListAsync();
+        public async Task<ActionResult<List<Product>>> GetAllProductsAsync() => await _db.Products.ToListAsync();
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<Product>> GetProductAsync(int id)
         {
             var product = await _db.Products.FindAsync(id);
             if (product == null) return NotFound();
