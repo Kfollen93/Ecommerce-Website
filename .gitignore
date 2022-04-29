@@ -453,3 +453,8 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 StoreDotNetCoreAPI/appsettings.json
+client-app-react/src/app/layout/App.tsx
+client-app-react/public/images/products/graphicscard.png
+client-app-react/public/images/products/headphones.png
+client-app-react/public/images/products/laptop.png
+client-app-react/public/images/products/television.png

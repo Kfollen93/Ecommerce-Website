@@ -20,7 +20,7 @@ function App() {
          price: (prevState.length * 100) + 100,
          brand: 'dummy data',
          description: 'the descr',
-         pictureUrl: 'http://picsum.photos/200'
+         pictureUrl: 'placeholder'
         }])
   }
 
