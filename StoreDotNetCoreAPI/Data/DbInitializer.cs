@@ -17,7 +17,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Sony Ultra Headphones",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 399,
+                    Price = 19999,
                     PictureUrl = "/images/products/headphones.png",
                     Brand = "Sony",
                     Type = "Headphones",
@@ -27,7 +27,7 @@ namespace StoreDotNetCoreAPI.Data
                 {
                     Name = "Sony LE Pro Headphones",
                     Description = "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-                    Price = 599,
+                    Price = 14999,
                     PictureUrl = "/images/products/headphones.png",
                     Brand = "Sony",
                     Type = "Headphones",
@@ -38,7 +38,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Apple Pro Headphones",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 299,
+                    Price = 17999,
                     PictureUrl = "/images/products/headphones.png",
                     Brand = "Apple",
                     Type = "Headphones",
@@ -49,7 +49,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Apple Max Headphones",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 699,
+                    Price = 29999,
                     PictureUrl = "/images/products/headphones.png",
                     Brand = "Apple",
                     Type = "Headphones",
@@ -60,7 +60,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Samsung HQ Headphones",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 149,
+                    Price = 24999,
                     PictureUrl = "/images/products/headphones.png",
                     Brand = "Samsung",
                     Type = "Headphones",
@@ -71,7 +71,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Asus LB Headphones",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 64,
+                    Price = 11999,
                     PictureUrl = "/images/products/headphones.png",
                     Brand = "Asus",
                     Type = "Headphones",
@@ -82,7 +82,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Apple Pro Laptop",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 999,
+                    Price = 9999,
                     PictureUrl = "/images/products/laptop.png",
                     Brand = "Apple",
                     Type = "Laptop",
@@ -93,7 +93,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Samsung Crystal Laptop",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 2999,
+                    Price = 79999,
                     PictureUrl = "/images/products/laptop.png",
                     Brand = "Samsung",
                     Type = "Laptop",
@@ -104,7 +104,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Samsung Ultra Laptop",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1499,
+                    Price = 14999,
                     PictureUrl = "/images/products/laptop.png",
                     Brand = "Samsung",
                     Type = "Laptop",
@@ -115,7 +115,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Nvidia Shield Television",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1999,
+                    Price = 17999,
                     PictureUrl = "/images/products/television.png",
                     Brand = "Nvidia",
                     Type = "Televisions",
@@ -126,7 +126,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Nvidia Liquid Display Television",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1499,
+                    Price = 14999,
                     PictureUrl = "/images/products/television.png",
                     Brand = "Nvidia",
                     Type = "Televisions",
@@ -137,7 +137,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Samsung UW Television",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1599,
+                    Price = 15999,
                     PictureUrl = "/images/products/television.png",
                     Brand = "Samsung",
                     Type = "Televisions",
@@ -148,7 +148,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Samsung Superbowl Edition Television",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 14999,
+                    Price = 13999,
                     PictureUrl = "/images/products/television.png",
                     Brand = "Samsung",
                     Type = "Televisions",
@@ -159,7 +159,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "AMD RX 7000 Graphics Card",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 899,
+                    Price = 24999,
                     PictureUrl = "/images/products/graphicscard.png",
                     Brand = "Amd",
                     Type = "Graphics Cards",
@@ -170,7 +170,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Nvidia RTX 4080 Graphics Card",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 999,
+                    Price = 18999,
                     PictureUrl = "/images/products/graphicscard.png",
                     Brand = "Nvidia",
                     Type = "Graphics Cards",
@@ -181,7 +181,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Nvidia RTX 5080 Graphics Card",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 1999,
+                    Price = 19999,
                     PictureUrl = "/images/products/graphicscard.png",
                     Brand = "Nvidia",
                     Type = "Graphics Cards",
@@ -191,7 +191,7 @@ namespace StoreDotNetCoreAPI.Data
                 {
                     Name = "Nvidia RTX 6080 Graphics Card",
                     Description = "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-                    Price = 3449,
+                    Price = 14999,
                     PictureUrl = "/images/products/graphicscard.png",
                     Brand = "Nvidia",
                     Type = "Graphics Cards",
@@ -202,7 +202,7 @@ namespace StoreDotNetCoreAPI.Data
                     Name = "Nvidia RTX 7090 Graphics Card",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 4999,
+                    Price = 17999,
                     PictureUrl = "/images/products/graphicscard.png",
                     Brand = "Nvidia",
                     Type = "Graphics Cards",
