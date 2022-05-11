@@ -23,5 +23,25 @@ namespace StoreDotNetCoreAPI.Controllers
             if (basket == null) return NotFound();
             return Ok(basket);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> AddItemToBasket(int productId, int quantity)
+        {
+            // Get Basket
+            // Create basket if no basket exists.
+            // Get Product
+            // add item
+            // save changes
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> RemoveItemFromBasket(int productId, int quantity)
+        {
+            // Get basket
+            // remove item or reduce quantity
+            // save changes.
+            return Ok();
+        }
     }
 }
