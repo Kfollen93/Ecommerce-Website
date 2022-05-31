@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace StoreDotNetCoreAPI.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class BasketController : ControllerBase
     {
         private readonly StoreContext _context;
@@ -36,7 +38,7 @@ namespace StoreDotNetCoreAPI.Controllers
             basket.AddItem(product, quantity);
 
             var results = await _context.SaveChangesAsync() > 0;
-            if (results) return Ok();
+            if (results) return StatusCode(201);
 
             return BadRequest(new ProblemDetails { Title = "Problem saving item to basket."});
         }
