@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StoreDotNetCoreAPI.Data;
+using StoreDotNetCoreAPI.DTOs;
 using StoreDotNetCoreAPI.Entities;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace StoreDotNetCoreAPI.Controllers
@@ -16,12 +18,26 @@ namespace StoreDotNetCoreAPI.Controllers
         public BasketController(StoreContext context) => _context = context;
 
         [HttpGet]
-        public async Task<ActionResult<Basket>> GetBasket()
+        public async Task<ActionResult<BasketDTO>> GetBasket()
         {
             var basket = await RetrieveBasket();
 
             if (basket == null) return NotFound();
-            return Ok(basket);
+            return new BasketDTO 
+            { 
+                Id = basket.Id, 
+                BuyerId = basket.BuyerId,
+                Items = basket.Items.Select(item => new BasketItemDTO
+                {
+                    ProductId = item.ProductId,
+                    Name = item.Product.Name,
+                    Price = item.Product.Price,
+                    PictureUrl = item.Product.PictureUrl,
+                    Type = item.Product.Type,
+                    Brand = item.Product.Brand,
+                    Quantity = item.Quantity
+                }).ToList()
+            };
         }
 
 
