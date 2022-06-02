@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using StoreDotNetCoreAPI.Data;
 using StoreDotNetCoreAPI.Entities;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace StoreDotNetCoreAPI.Controllers
